@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Lato:wght@400;700&display=swap');
+
+h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.302rem;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  letter-spacing: .4px;
+}
+.left-content span h3 {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.scroll-container{
+  background: #2388FF;
+  width: 100%;
+  height: 100vh;
+  padding: 110px 0px;
+  overflow: hidden;
+}
+.cards-contaiener{
+  grid-column-gap: 28px;
+    flex-direction: row;
+    display: flex;
+    padding-left: 100px;
+  
+}
+.card-1{
+  flex-direction: row;
+  flex: none;
+  width: 70%;
+  height: 55vh;
+  min-height: 420px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+  overflow: hidden;
+    transform: translate(0);
+    border-radius: 32px;
+}
+.image-container img{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.left-container, .right{
+  width: 50%;
+  height: auto;
+}
+.left-container{
+  flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+    padding: 60px 54px;
+    display: flex;
+}
+.left-container h3{
+  color: #19213d;
+    margin-bottom: 6px;
+    
+}
+.left-container p{
+  color: #667097;
+  font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: .4px;
+    margin-top: 0;
+    margin-bottom: 19px;
+}
+.heading-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 0;
+  width: 85%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button-primary.white {
+  border-color: #fff;
+  background-color: #fff;
+  box-shadow: 0 2px 6px 0 rgba(20, 20, 43, .04);
+  color: #2388ff;
+  transition: transform .3s, box-shadow .3s;
+  text-align: center;
+  transform-style: preserve-3d;
+  border-radius: 64px;
+  padding: 26px 38px 24px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #fff;
+  display: inline-block; /* Ensure it behaves like a button */
+}
+
+.button-primary.white:hover {
+  transform: translateY(-3px); /* Add a hover effect for better UX */
+  box-shadow: 0 4px 12px 0 rgba(20, 20, 43, .1); /* Enhance hover effect */
+}
+
+.button-icon {
+  margin-left: 8px; /* Add some spacing before the icon */
+  transition: margin-left .3s; /* Smooth transition for the icon movement */
+}
+
+.button-primary.white:hover .button-icon {
+  margin-left: 16px; /* Move the icon to the right on hover */
+}
+.left-content{
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  padding: 0;
+}
+.left-content span{
+  letter-spacing: .06em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.left-content h3{
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+    letter-spacing: .4px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.right-content{
+  padding-bottom: 10px;
+}
+.left-container a{
+  font-size: 16px;
+  line-height: 18px;
+}
+.left-container a{
+  color: #ff2d46;
+  letter-spacing: .06em;
+  text-transform: uppercase !important;
+  background-color: rgba(0, 0, 0, 0);
+  align-items: center;
+  padding: 0;
+  font-weight: 700;
+  line-height: 20px;
+  transition: color .3s;
+}
+.cards-container{
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  margin-left: 100px;
+}
+.image-container{
+  background:#FFEBED;
+  border: 1px solid transparent;
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
+  height: 420px;
+}
+.conttwo{
+  background: #EAF2FF;
+}
+.contthree{
+  background: #FFF3C9;
+}
+.contfour{
+  background: #DDFCDF;
+}
+.contfive{
+  background: #F0EFFF;
+}
+.contsix{
+  background: #EAF2FF;
+}
